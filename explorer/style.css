@@ -24,6 +24,7 @@ ul {
 body{
     background-color: var(--bg-primary);
     background-image: var(--bg-image);
+    background: cover;
     background-position-x: center;
     background-position-y: -755px;
     color: var(--font-color);
@@ -42,6 +43,12 @@ body{
 header {
     margin-bottom: 63px;
     text-align:center;
+}
+
+#cards{
+    display:flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .card {
